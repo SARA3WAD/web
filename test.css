@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+.signindiv{
+    background-color:darkcyan ;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+.l1{
+    font-family: snap itc;
+    margin-left: 170px;
+    color: white;
+}
+.signinform{
+    margin-left: 50px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.l4{
+    color: darkblue;
+}
+.signinbu{
+    text-align: center;
+    font-family: snap itc;
+    font-size: 20px;
+    margin-left: 170px;
+    border-radius: 10px;
+}
+.signupdiv{
+    background-color:darkcyan ;
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    margin-left: 510px;
+    margin-top: -500px;
+}
+.signupform{
+    margin-left: 50px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.signupbu{
+    text-align: center;
+    font-family: snap itc;
+    font-size: 20px;
+    margin-left: 170px;
+    border-radius: 10px;
+}
+.la1{
+    font-family: snap itc;
+    margin-left: 150px;
+    color: white;
+}
+.forgetpass{
+    background-color:darkcyan ;
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    margin-left: 1020px;
+    margin-top: -500px;
+}
+.forgetform{
+    margin-left: 50px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.lab1{
+    font-family: snap itc;
+    margin-left: 120px;
+    color: white;
+}
+.for{
+    text-align: center;
+    font-family: snap itc;
+    font-size: 20px;
+    margin-left: 170px;
+    border-radius: 10px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div class="signindiv">
+            <form class="signinform">
+                <label class="l1">signin</label><br><br><br><br>
+                <label class="l2">username:</label>
+                <input type="text" id="username"><br><br>
+                <label class="l3">password:</label>
+                <input type="password" id="password"><br><br><br><br>
+                <a href="forgetpass"><label class="l4">Forget password?</label></a><br><br><br><br><br><br>
+                <button type="button" class="signinbu" onclick="signin()">sign in</button>
+            </form>
+    </div>
+    <div class="signupdiv">
+        <form class="signupform">
+            <label class="la1">signup</label><br><br><br><br>
+            <label class="la2">username:</label>
+            <input type="text" id="name_text"><br><br>
+            <label class="la3">password:</label>
+            <input type="password" id="pass_text"><br><br>
+            <label class="la4">confirm password:</label>
+            <input type="text" id="confirm_text"><br><br>
+            <label class="la5">phone number:</label>
+            <input type="text" id="phone_text"><br><br>
+            <label class="la6">age</label>
+            <input type="number" id="age_text"><br><br>
+            <label class="la7">E-mail:</label>
+            <input type="email" id="email_text"><br><br>
+            <label>Gender:</label>
+            <input type="radio" name="ss"><label>Male</label><input type="radio" name="ss"><label>Female</label><br><br>
+            <button type="button" class="signupbu" onclick="signup()">sign up</button>
+        </form>
+    </div>
+    <div class="forgetpass">
+        <form class="forgetform">
+            <label class="lab1">change password</label><br><br><br><br>
+            <label class="lab2">username:</label>
+            <input type="text" id="user"><br><br>
+            <label class="lab3">new password:</label>
+            <input type="text" id="pa"><br><br>
+            <label class="lab4">confirm password:</label>
+            <input type="text" id="conf"><br><br><br><br>
+            <button type="button" class="for" onclick="forget()">update</button>
+        </form>
+    </div>
+    <script src="test.js"></script>
+</body>
+</html>

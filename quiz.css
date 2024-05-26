@@ -1,0 +1,19 @@
+.mydiv{
+    background-color: hotpink;
+    height: 600px;
+    border-radius: 20px;
+}
+.te1{
+    color: brown;
+    text-align: center;
+    font-family: snap itc;
+}
+.formm{
+    margin-left: 50px;
+}
+.bu{
+    text-align: center;
+    font-family: snap itc;
+    font-size: 20px;
+    border-radius: 10px;
+}
